@@ -1,0 +1,39 @@
+C:\Users\milk\Desktop\JKPS\Source\Application.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\Application.obj
+C:\Users\milk\Desktop\JKPS\Source\Background.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\Background.obj
+C:\Users\milk\Desktop\JKPS\Source\Button.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\Button.obj
+C:\Users\milk\Desktop\JKPS\Source\ButtonPositioner.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\ButtonPositioner.obj
+C:\Users\milk\Desktop\JKPS\Source\ChangedParametersQueue.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\ChangedParametersQueue.obj
+C:\Users\milk\Desktop\JKPS\Source\ColorButton.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\ColorButton.obj
+C:\Users\milk\Desktop\JKPS\Source\ConfigHelper.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\ConfigHelper.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Fonts\KPSWindowTextFont.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\KPSWindowTextFont.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Fonts\MainProgramFont.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\MainProgramFont.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Fonts\RobotoMono.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\RobotoMono.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Fonts\arial_monospaced.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\arial_monospaced.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\AnimationTexture.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\AnimationTexture.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\BackgroundTexture.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\BackgroundTexture.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\ButtonTexture.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\ButtonTexture.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\GreenscreenBGTexture.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\GreenscreenBGTexture.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\IconTexture.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\IconTexture.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\KeyPressVisTexture.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\KeyPressVisTexture.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\RGB-Circle.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\RGB-Circle.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\RefreshTexture.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\RefreshTexture.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\vMark.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\vMark.obj
+C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\xMark.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\xMark.obj
+C:\Users\milk\Desktop\JKPS\Source\GfxButton.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\GfxButton.obj
+C:\Users\milk\Desktop\JKPS\Source\GfxButtonSelector.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\GfxButtonSelector.obj
+C:\Users\milk\Desktop\JKPS\Source\GfxParameter.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\GfxParameter.obj
+C:\Users\milk\Desktop\JKPS\Source\GfxStatisticsLine.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\GfxStatisticsLine.obj
+C:\Users\milk\Desktop\JKPS\Source\KPSWindow.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\KPSWindow.obj
+C:\Users\milk\Desktop\JKPS\Source\KeysPerSecondGraph.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\KeysPerSecondGraph.obj
+C:\Users\milk\Desktop\JKPS\Source\LogButton.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\LogButton.obj
+C:\Users\milk\Desktop\JKPS\Source\LogKey.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\LogKey.obj
+C:\Users\milk\Desktop\JKPS\Source\LogicalParameter.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\LogicalParameter.obj
+C:\Users\milk\Desktop\JKPS\Source\Main.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\Main.obj
+C:\Users\milk\Desktop\JKPS\Source\MathHelper.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\MathHelper.obj
+C:\Users\milk\Desktop\JKPS\Source\Menu.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\Menu.obj
+C:\Users\milk\Desktop\JKPS\Source\Palette.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\Palette.obj
+C:\Users\milk\Desktop\JKPS\Source\ParameterLine.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\ParameterLine.obj
+C:\Users\milk\Desktop\JKPS\Source\Settings.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\Settings.obj
+C:\Users\milk\Desktop\JKPS\Source\StatisticLinesPositioner.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\StatisticLinesPositioner.obj
+C:\Users\milk\Desktop\JKPS\Source\StringHelper.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\StringHelper.obj
+C:\Users\milk\Desktop\JKPS\Source\Utility.cpp;C:\Users\milk\Desktop\JKPS\build\JKPS.dir\Release\Utility.obj

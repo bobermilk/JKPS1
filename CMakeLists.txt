@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 set(CMAKE_CXX_STANDARD 17)
+set(SFML_DIR "C:/Users/milk/Desktop/projects/JKPS/SFML/lib/cmake/SFML")
 
 project(JKPS CXX)
 
@@ -14,20 +15,6 @@ add_executable(${PROJECT_NAME} ${SRC_SOURCES} ${SRC_HEADERS})
 target_compile_options(
 	${PROJECT_NAME} PRIVATE
     -Wall
-    -Wextra
-    -Wpedantic
-    
-    -Wcast-align
-    -Wcast-qual
-    -Wconversion
-    -Wctor-dtor-privacy
-    -Wenum-compare
-    -Wnon-virtual-dtor
-    -Wold-style-cast
-    -Woverloaded-virtual
-    -Wredundant-decls
-    -Wsign-conversion
-    -Wsign-promo
 )
 
 

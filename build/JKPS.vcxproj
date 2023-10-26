@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1244EDB8-0F17-386A-9B39-037DF58DF91F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>JKPS</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\milk\Desktop\JKPS\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">JKPS.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">JKPS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\milk\Desktop\JKPS\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">JKPS.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">JKPS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\milk\Desktop\JKPS\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">JKPS.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">JKPS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\milk\Desktop\JKPS\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">JKPS.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">JKPS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/milk/Downloads/SFML/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;COMPILE_FLAGS;PROGRAM_VERSION="0.3";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;COMPILE_FLAGS;PROGRAM_VERSION=\"0.3\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;C:\Users\milk\Downloads\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;C:\Users\milk\Downloads\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\milk\Downloads\SFML\lib\sfml-graphics-d.lib;C:\Users\milk\Downloads\SFML\lib\sfml-window-d.lib;C:\Users\milk\Downloads\SFML\lib\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/milk/Desktop/JKPS/build/Debug/JKPS.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/milk/Desktop/JKPS/build/Debug/JKPS.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/milk/Downloads/SFML/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILE_FLAGS;PROGRAM_VERSION="0.3";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILE_FLAGS;PROGRAM_VERSION=\"0.3\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;C:\Users\milk\Downloads\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;C:\Users\milk\Downloads\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\milk\Downloads\SFML\lib\sfml-graphics.lib;C:\Users\milk\Downloads\SFML\lib\sfml-window.lib;C:\Users\milk\Downloads\SFML\lib\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/milk/Desktop/JKPS/build/Release/JKPS.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/milk/Desktop/JKPS/build/Release/JKPS.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/milk/Downloads/SFML/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILE_FLAGS;PROGRAM_VERSION="0.3";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILE_FLAGS;PROGRAM_VERSION=\"0.3\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;C:\Users\milk\Downloads\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;C:\Users\milk\Downloads\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\milk\Downloads\SFML\lib\sfml-graphics-d.lib;C:\Users\milk\Downloads\SFML\lib\sfml-window-d.lib;C:\Users\milk\Downloads\SFML\lib\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/milk/Desktop/JKPS/build/MinSizeRel/JKPS.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/milk/Desktop/JKPS/build/MinSizeRel/JKPS.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/milk/Downloads/SFML/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILE_FLAGS;PROGRAM_VERSION="0.3";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILE_FLAGS;PROGRAM_VERSION=\"0.3\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;C:\Users\milk\Downloads\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\milk\Desktop\JKPS\Source;C:\Users\milk\Downloads\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\milk\Downloads\SFML\lib\sfml-graphics-d.lib;C:\Users\milk\Downloads\SFML\lib\sfml-window-d.lib;C:\Users\milk\Downloads\SFML\lib\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/milk/Desktop/JKPS/build/RelWithDebInfo/JKPS.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/milk/Desktop/JKPS/build/RelWithDebInfo/JKPS.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\milk\Desktop\JKPS\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/milk/Desktop/JKPS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/milk/Desktop/JKPS -BC:/Users/milk/Desktop/JKPS/build --check-stamp-file C:/Users/milk/Desktop/JKPS/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\milk\Desktop\JKPS\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/milk/Desktop/JKPS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/milk/Desktop/JKPS -BC:/Users/milk/Desktop/JKPS/build --check-stamp-file C:/Users/milk/Desktop/JKPS/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\milk\Desktop\JKPS\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/milk/Desktop/JKPS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/milk/Desktop/JKPS -BC:/Users/milk/Desktop/JKPS/build --check-stamp-file C:/Users/milk/Desktop/JKPS/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\milk\Desktop\JKPS\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/milk/Desktop/JKPS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/milk/Desktop/JKPS -BC:/Users/milk/Desktop/JKPS/build --check-stamp-file C:/Users/milk/Desktop/JKPS/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;C:\Users\milk\Desktop\JKPS\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\milk\Downloads\SFML\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\milk\Desktop\JKPS\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Application.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Background.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Button.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\ButtonPositioner.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\ChangedParametersQueue.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\ColorButton.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\ConfigHelper.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Fonts\KPSWindowTextFont.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Fonts\MainProgramFont.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Fonts\RobotoMono.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Fonts\arial_monospaced.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\AnimationTexture.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\BackgroundTexture.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\ButtonTexture.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\GreenscreenBGTexture.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\IconTexture.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\KeyPressVisTexture.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\RGB-Circle.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\RefreshTexture.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\vMark.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Default media\Textures\xMark.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\GfxButton.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\GfxButtonSelector.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\GfxParameter.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\GfxStatisticsLine.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\KPSWindow.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\KeysPerSecondGraph.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\LogButton.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\LogKey.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\LogicalParameter.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Main.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\MathHelper.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Menu.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Palette.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\ParameterLine.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Settings.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\StatisticLinesPositioner.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\StringHelper.cpp" />
+    <ClCompile Include="C:\Users\milk\Desktop\JKPS\Source\Utility.cpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Application.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Background.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Button.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\ButtonPositioner.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\ChangedParametersQueue.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\ColorButton.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\ConfigHelper.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\DefStrs.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Fonts\KPSWindowTextFont.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Fonts\MainProgramFont.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Fonts\RobotoMono.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Fonts\arial_monospaced.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\AnimationTexture.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\BackgroundTexture.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\ButtonTexture.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\GreenscreenBGTexture.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\IconTexture.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\KeyPressVisTexture.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\RGB-Circle.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\RefreshTexture.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\Textures.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\vMark.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Default media\Textures\xMark.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\DefaultFiles.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\GfxButton.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\GfxButtonSelector.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\GfxParameter.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\GfxStatisticsLine.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\KPSWindow.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\KeysPerSecondGraph.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\LogButton.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\LogKey.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\LogicalParameter.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\MathHelper.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Menu.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Palette.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\ParameterLine.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\ResourceHolder.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\ResourceIdentifiers.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Settings.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\StatisticLinesPositioner.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\StringHelper.hpp" />
+    <ClInclude Include="C:\Users\milk\Desktop\JKPS\Headers\Utility.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\milk\Desktop\JKPS\build\ZERO_CHECK.vcxproj">
+      <Project>{0450CC88-A654-3081-B3FF-DD515A9DB80B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

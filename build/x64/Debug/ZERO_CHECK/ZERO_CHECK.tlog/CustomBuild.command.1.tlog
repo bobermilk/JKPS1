@@ -1,0 +1,10 @@
+^C:\USERS\MILK\DESKTOP\JKPS\BUILD\CMAKEFILES\884028E1728579AF59F1BB7998850142\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/milk/Desktop/JKPS -BC:/Users/milk/Desktop/JKPS/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/milk/Desktop/JKPS/build/JKPS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
